@@ -254,3 +254,5 @@ with torch.no_grad():
         correct += (output_index == y).sum().float()
 
     print('Accuracy of Testset : {:.4f}'.format(100*correct/total))
+    
+# Train Acc : 98.75 %  Test Acc : 92.40 %
